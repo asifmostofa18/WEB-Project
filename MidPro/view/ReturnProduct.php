@@ -12,8 +12,12 @@
 <body>
 	<table border="1" width="100%" cellspacing="0">
 		<tr>
+
+		<td align="right" colspan="3">
+			<?php include 'head.php';?>
+
+			</td>
 			
-		<?php include 'head.php';?>
 
 		</tr>
 		<tr height = "200px">

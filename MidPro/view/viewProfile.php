@@ -40,10 +40,11 @@
 							</td>
 							<td rowspan="5">
 								&nbsp &nbsp &nbsp &nbsp &nbsp
-								<!--<img src="user.png" alt="User Profile Picture" width="150" height="100">-->
+								<!--<img src="user.png" alt="User Profile Picture" width="150" height="100">
 								<a> <img src="../asset/user.png" alt="User Profile Picture" width="150" height="100" > </a> 
 
 								<p align="center"> <a href="changeProfilePicture.php"> Change </a> </p>
+	-->
 							</td>
 						</tr>
 						<tr> <td colspan="2"> <hr> </td> </tr>
