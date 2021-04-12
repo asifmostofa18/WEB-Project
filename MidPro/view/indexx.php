@@ -11,7 +11,7 @@
 	</div>
 	<center>
 		<!--<a href="login.html"> Login</a> |-->
-		<a href="signup.html"> Add Product</a> 
+		<a href="product.html"> Add Product</a> 
 	</center>
 	<div id='nav_bar' align="center">
 		

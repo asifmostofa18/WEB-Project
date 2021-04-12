@@ -20,7 +20,7 @@
 
 
 <div id="main_content">
-	<form method="post" action="">
+	<form method="post" action="../controller/delProduct.php">
 		<table>
 			<tr>
 				<td> <?php echo "Are you sure to delete $username'" ?> </td>
@@ -34,21 +34,3 @@
 	</form>
 </div>
 
-<?php 
-	include('footer.php');
-	if(isset($_POST['delete']))
-	{
-		$userValidationInfo = [
-								 'user' => ".",
-								 'cat' => ".",
-								# 'rPass' => ".",
-								 #'email' => ".",
-		      				  ];
-
-		$allData = json_encode($userValidationInfo);
-		$userData = fopen("../model/userValidationInfo.json", "w");
-		fwrite($userData, $allData);
-		fclose($userData);
-		header('location: ../');
-	}
-?>

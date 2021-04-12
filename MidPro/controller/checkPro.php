@@ -24,7 +24,7 @@
 				$userData = fopen("../model/userValidationInfo.json", "w");
 				fwrite($userData, $allData);
 				fclose($userData);
-				header('location: ../view/login.html');
+				header('location: ../view/confirmProduct.html');
 			
 		}
 
